@@ -56,7 +56,7 @@ const NavBar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-  <button className='btn transition-all duration-500 bg-primary py-2 px-4 rounded text-white hover:bg-red hover:text-red'><a href="/sample.txt" download="Sample_File.txt" className="download-link">Download CV</a></button>
+  <button className='btn transition-all duration-500 bg-primary py-2 px-4 rounded text-white hover:bg-red hover:text-red'><a href="/didarul1981.pdf" download="didarul1981.pdf" className="download-link">Download CV</a></button>
   </div>
 </div>
   );

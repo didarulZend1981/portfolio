@@ -32,7 +32,7 @@ const ContactForm = () => {
         errors={state.errors}
       />
       
-      <button type="submit" disabled={state.submitting} className="btn transition-all duration-500 bg-primary py-2 px-12 rounded text-green hover:bg-yellow hover:text-white block">
+      <button type="submit" disabled={state.submitting} className="btn transition-all duration-500 bg-primary py-2 px-4 rounded text-white hover:bg-secondery hover:text-red block uppercase">
                   Send
         </button>
     </form>
