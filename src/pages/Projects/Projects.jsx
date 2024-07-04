@@ -1,68 +1,7 @@
 
 
 const Projects = () => {
-  const projects = [
-    {
-      "name": "Task Manager Application",
-      "description": "A web application for managing tasks and projects, designed to enhance team productivity.",
-      "core_features": [
-        "Task Management",
-        "User Authentication",
-        "Project Collaboration"
-      ],
-      "technologies_used": {
-        "frontend": ["HTML", "CSS", "JavaScript", "React"],
-        "backend": ["Node.js", "Express.js"],
-        "database": "MongoDB",
-        "authentication": "JSON Web Tokens (JWT)"
-      },
-      "live_link": "https://example.com/task-manager",
-      "github_links": {
-        "client": "https://github.com/username/task-manager-client",
-        "server": "https://github.com/username/task-manager-server"
-      }
-    },
-    {
-      "name": "Online Marketplace",
-      "description": "A platform for buying and selling various products online, catering to diverse customer needs.",
-      "core_features": [
-        "Product Listings",
-        "Shopping Cart and Checkout",
-        "User Ratings and Reviews"
-      ],
-      "technologies_used": {
-        "frontend": ["HTML", "CSS", "JavaScript", "React"],
-        "backend": ["Node.js", "Express.js"],
-        "database": "MongoDB",
-        "authentication": "JSON Web Tokens (JWT)"
-      },
-      "live_link": "https://example.com/online-marketplace",
-      "github_links": {
-        "client": "https://github.com/username/online-marketplace-client",
-        "server": "https://github.com/username/online-marketplace-server"
-      }
-    },
-    {
-      "name": "Blogging Platform",
-      "description": "A blogging website where users can create, publish, and share articles on various topics.",
-      "core_features": [
-        "Article Management",
-        "User Profiles",
-        "Comments and Interactions"
-      ],
-      "technologies_used": {
-        "frontend": ["HTML", "CSS", "JavaScript", "React"],
-        "backend": ["Node.js", "Express.js"],
-        "database": "MongoDB",
-        "authentication": "JSON Web Tokens (JWT)"
-      },
-      "live_link": "https://example.com/blogging-platform",
-      "github_links": {
-        "client": "https://github.com/username/blogging-platform-client",
-        "server": "https://github.com/username/blogging-platform-server"
-      }
-    }
-  ];
+  
   return (
     <div className="md:px-10 px-7 my-8" id="projects">
     <h1 className="text-primary font-semibold text-3xl mt-16">
