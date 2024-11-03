@@ -9,13 +9,66 @@ const Projects = () => {
     </h1>
     <p className="my-3 text-black md:w-3/4 leading-[2]">
       I have worked on many projects over the course of being a Web Developer,
-      here are a few of my live, real-world projects (<span className='text-[green]'>disply-3project here</span>)
+      here are a few of my live, real-world projects (<span className='text-[green]'>disply-4 project here</span>)
     </p>
     {/* featured projects */}
 
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 my-6 items-center justify-center">
   
+    <div className="card bg-base-100 shadow-2xl   w-96 p-4 rounded flex flex-col  md:w-[343px]">
+  <div className="card-body">
+    <h2 className="my-3"><span className="text-[red]">Name:</span><span className="text-[15px]">BookNest (Team Project)</span></h2>
+    <p className="text-wrap"><span className="text-[green]">Descrioption:</span>BookNest enhances the online book buying experience by offering a comprehensive platform that simplifies searching, purchasing, and managing books while promoting user interaction through tailored features.
 
+</p>
+    <p>Core Feture(3):</p>
+    <ul className="ml-10">
+      <li>Advanced Search and Filtering</li>
+      <li>Multiple Payment Options</li>
+      <li>Live Chat Support</li>
+    </ul>
+    <p>Technologies:</p>
+    <ul className="ml-10 gap-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 my-6 items-center justify-center">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" className='h-[35px]'/>
+
+    {/*<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" className='h-[35px]'/> */}
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" className='h-[35px]'/> 
+
+      
+     
+
+       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" className='h-[35px]'/>  
+
+      
+     
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="10" className='h-[35px]'/>
+        
+       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" alt="nextjs" width="40" height="10" className='h-[35px]'/>
+       
+     <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40" className='h-[35px]'/> 
+     
+
+    </ul>
+    <div className="">
+    <div className="divider"></div>
+    <div className="flex font-semibold">
+              <button className="btn btn-warning transition-all duration-500 bg-red-300 rounded text-white hover:bg-purple-300 hover:text-[black] uppercase mr-3">
+               
+
+                <a href="https://art-auth-1a330.web.app">live</a>
+              </button>
+
+
+              <button className="btn btn-warning transition-all duration-500 bg-red-300 rounded text-white hover:bg-purple-300 hover:text-[black] uppercase mr-3">
+                <a href="https://github.com/didarulZend1981/art-craft-client">client</a>
+              </button>
+              <button className="btn btn-warning transition-all duration-500 bg-red-300 rounded text-white hover:bg-purple-300 hover:text-[black] uppercase">
+              <a href="https://github.com/didarulZend1981/art-craft-server">server</a>
+              </button>
+            </div>
+    </div>
+  </div>
+</div>
 
 <div className="card bg-base-100 shadow-2xl   w-96 p-4 rounded flex flex-col  md:w-[343px]">
   <div className="card-body">
@@ -28,35 +81,25 @@ const Projects = () => {
       <li>Auth Module</li>
     </ul>
     <p>Technologies:</p>
-    <ul className="ml-10">
-   
+    <ul className="ml-10 gap-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 my-6 items-center justify-center">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" className='h-[35px]'/>
 
-      <li className='flex'>Frontend:
-     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" className='h-[35px]'/>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" className='h-[35px]'/> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" className='h-[35px]'/> 
 
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" className='h-[35px]'/> 
-    
-    
-   
-    
-
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" className='h-[35px]'/> 
-    
-
-
-      </li>
-      <li className='flex'>Backend:
+      
+     
 
        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" className='h-[35px]'/>  
 
-      </li>
-      <li className='flex'>Database:
+      
+     
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="10" className='h-[35px]'/>
         
-        </li>
-        <li className='flex'>Authentication:
+       
+       
      <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40" className='h-[35px]'/> 
-      </li>
+     
     </ul>
     <div className="">
     <div className="divider"></div>
@@ -90,34 +133,24 @@ const Projects = () => {
       <li>Photo Gallery</li>
     </ul>
     <p>Technologies:</p>
-    <ul className="ml-10">
+    <ul className="ml-10 gap-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 my-6 items-center justify-center">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" className='h-[35px]'/>
+
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" className='h-[35px]'/> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" className='h-[35px]'/> 
+
+      
      
-      <li className='flex'>Frontend:
-     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" className='h-[35px]'/>
-
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" className='h-[35px]'/> 
-    
-    
-   
-    
-
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" className='h-[35px]'/> 
-    
-
-
-      </li>
-      <li className='flex'>Backend:
 
        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" className='h-[35px]'/>  
 
-      </li>
-      <li className='flex'>Database:
+      
+     
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="10" className='h-[35px]'/>
         
-        </li>
-        <li className='flex'>Authentication:
+       
+       
      <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40" className='h-[35px]'/> 
-      </li>
      
     </ul>
     <div className="">
@@ -152,33 +185,25 @@ const Projects = () => {
       <li>Customer Feed Back</li>
     </ul>
     <p>Technologies(3):</p>
-    <ul className="ml-10">
-    <li className='flex'>Frontend:
-     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" className='h-[35px]'/>
+    <ul className="ml-10 gap-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 my-6 items-center justify-center">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" className='h-[35px]'/>
 
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" className='h-[35px]'/> 
-    
-    
-   
-    
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" className='h-[35px]'/> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" className='h-[35px]'/> 
 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" className='h-[35px]'/> 
-    
-
-
-      </li>
-      <li className='flex'>Backend:
+      
+     
 
        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" className='h-[35px]'/>  
 
-      </li>
-      <li className='flex'>Database:
+      
+     
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="10" className='h-[35px]'/>
         
-        </li>
-        <li className='flex'>Authentication:
+       
+       
      <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40" className='h-[35px]'/> 
-      </li>
+     
     </ul>
     <div className="">
     <div className="divider"></div>
